@@ -1,0 +1,35 @@
+{
+  "name": "informer",
+  "version": "0.0.1",
+  "description": "informer node.js library",
+  "main": "./lib/informer.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/g4code/informer"
+  },
+  "keywords": [
+    "informer"
+  ],
+  "author": "Drasko Gomboc <drasko.gomboc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g4code/informer/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "dependencies": {
+    "evento": "*",
+    "underscore": "*"
+  },
+  "bin": {
+    "informer": "./bin/informer.js"
+  }
+}

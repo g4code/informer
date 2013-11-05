@@ -9,24 +9,24 @@ informer
 
 ## Usage
 
-    var informer = require('informer');
+    var informer = require("informer");
 
-Set title (default is '[informer]')
+Set title (default is "[informer]")
 
-    informer.title('new title');
+    informer.title("new title");
 
-Set title color (default is 'green')
+Set title color (default is "green")
 
-    informer.titleColor('cyan');
+    informer.titleColor("cyan");
 
 Output methods
 
 ``` js
 informer.error("Some error text") // outputs red text
-informer.info('Some info text') // outputs blue text
-informer.loading('Some loading text') // outputs grey text
-informer.success('Some success text') // outputs green text
-informer.warning('Some warning text') // outputs yellow text
+informer.info("Some info text") // outputs blue text
+informer.loading("Some loading text") // outputs grey text
+informer.success("Some success text") // outputs green text
+informer.warning("Some warning text") // outputs yellow text
 ```
 
 ### Colors & Styles

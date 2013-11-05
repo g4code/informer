@@ -5,7 +5,7 @@ var suite = {
 
     mock: function(mockName)
     {
-        return path.resolve(__dirname + "/mocks/" + mockName);
+        return path.resolve(__dirname + "/mock/" + mockName);
     },
 
     path: function(moduleName)

@@ -1,6 +1,6 @@
 {
   "name": "informer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "informer node.js library",
   "main": "./lib/informer.js",
   "directories": {
@@ -28,8 +28,5 @@
   "dependencies": {
     "colors": "*",
     "underscore": "*"
-  },
-  "bin": {
-    "informer": "./bin/informer.js"
   }
 }

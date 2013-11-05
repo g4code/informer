@@ -21,11 +21,13 @@ Set title color (default is 'green')
 
 Output methods
 
-    informer.error('Some error text') // outputs red text
-    informer.info('Some info text') // outputs blue text
-    informer.loading('Some loading text') // outputs grey text
-    informer.success('Some success text') // outputs green text
-    informer.warning('Some warning text') // outputs yellow text
+``` js
+informer.error("Some error text") // outputs red text
+informer.info('Some info text') // outputs blue text
+informer.loading('Some loading text') // outputs grey text
+informer.success('Some success text') // outputs green text
+informer.warning('Some warning text') // outputs yellow text
+```
 
 ### Colors & Styles
 

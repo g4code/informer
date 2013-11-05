@@ -9,15 +9,21 @@ informer
 
 ## Usage
 
-    var informer = require("informer");
+``` js
+var informer = require("informer");
+```
 
 Set title (default is "[informer]")
 
-    informer.title("new title");
+``` js
+informer.title("new title");
+```
 
 Set title color (default is "green")
 
-    informer.titleColor("cyan");
+``` js
+informer.titleColor("cyan");
+```
 
 Output methods
 

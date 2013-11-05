@@ -1,6 +1,4 @@
 
-var titleColor = "green",
-    titleText  = "[informer]";
 
 function Title()
 {
@@ -9,26 +7,32 @@ function Title()
 
 Title.prototype = {
 
+    titleColor: null,
+
+    titleText: null,
+
     getColor: function()
     {
-        return titleColor;
+        return this.titleColor;
     },
 
     getText: function()
     {
-        return titleText;
+        return this.titleText;
     },
 
     setColor: function(colorName)
     {
         colorName.should.be.a("string");
+        colorName.should.be.equal(this.titleColor);
 
         return this;
     },
 
-    setText: function(title)
+    setText: function(titleText)
     {
-        title.should.be.a("string");
+        titleText.should.be.a("string");
+        titleText.should.be.equal(this.titleText);
 
         return this;
     }

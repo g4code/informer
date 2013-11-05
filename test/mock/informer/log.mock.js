@@ -10,7 +10,7 @@ Log.prototype = {
 
     colorName: null,
 
-    message: null,
+    messageText: null,
 
     titleText: null,
 
@@ -28,19 +28,18 @@ Log.prototype = {
         "test".should.be.ok;
     },
 
-    message: function(message)
+    message: function(messageText)
     {
-        message.should.be.a("string");
-        message.should.equal(this.message);
+        messageText.should.be.a("string");
+        messageText.should.equal(this.messageText);
 
         return this;
     },
 
-    title: function(title)
+    title: function(titleText)
     {
-        console.log(title);
-        title.should.be.a("string");
-        title.should.equal(this.titleText);
+        titleText.should.be.a("string");
+        titleText.should.equal(this.titleText);
 
         return this;
     }

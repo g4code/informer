@@ -3,6 +3,8 @@ informer
 
 > informer - [nodejs](http://nodejs.org) library
 
+[![NPM](https://nodei.co/npm/informer.png)](https://nodei.co/npm/informer/)
+
 ## Install
 
     $ npm install informer
